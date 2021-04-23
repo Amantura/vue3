@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-gray-900 bg-gray-100;
+  }
+
+  button,
+  a,
+  input {
+    @apply outline-none focus:outline-none ring-0 focus:ring-0
+  }
+}
+
+
+
